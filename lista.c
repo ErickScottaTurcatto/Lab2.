@@ -126,3 +126,41 @@ void l_insere_pos(Lista l, dado_t d, int p)
   // depois do novo fica o que estava depois do anterior
   l->prox[novo] = seguinte;
 }
+
+
+// retorna o dado no início da lista
+dado_t l_dado_inicio(Lista l)
+{
+  assert(!l_vazia(l));
+  return l->dados[l->prim];
+}
+
+// retorna o dado no final da lista
+dado_t l_dado_fim(Lista l)
+{
+  return 0;
+}
+
+// retorna o dado na posição pos da lista
+dado_t l_dado_pos(Lista l, int pos)
+{
+  return 0;
+}
+
+// remove e retorna o dado no início da lista
+dado_t l_remove_inicio(Lista l)
+{
+  return 0;
+}
+
+// remove e retorna o dado no final da lista
+dado_t l_remove_fim(Lista l)
+{
+  return 0;
+}
+
+// remove e retorna o dado na posição pos da lista
+dado_t l_remove_pos(Lista l, int pos)
+{
+  return 0;
+}
